@@ -17,6 +17,12 @@ describe('SUM challenge: adding two numbers', function() {
 			sum(101,2);
 		});
 	});
+
+	it('should reject invalid input for param[1]', function(){
+		assert.throws(function(){
+			sum(22,-1000);
+		});
+	});
 	
 	it('should return 3, which is the sum of 1 and 2', function() {
 	    assert.equal(sum(1, 2), 3);
