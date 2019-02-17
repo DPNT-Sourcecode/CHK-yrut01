@@ -7,6 +7,5 @@ describe("hello unit tests", function() {
     const result = hello(name);
 
     assert.equal(result, `Hello, ${name}!`);
-
   });
 });
