@@ -33,4 +33,3 @@ describe("SUM challenge: adding two numbers", function() {
     assert.equal(sum(1, 2), 3);
   });
 });
-
